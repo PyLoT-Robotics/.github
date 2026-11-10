@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">PyLoT Robotics — Build robots. Share what works.</title>
+  <desc id="desc">A midnight-blue banner with cyan orbital paths, a robot face and gently twinkling stars.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071321"/><stop offset="1" stop-color="#142642"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#62e8ef"/><stop offset="1" stop-color="#afa0ff"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#38d7e5" stop-opacity=".18"/><stop offset="1" stop-color="#38d7e5" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#9abce5" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="971" cy="180" r="220" fill="url(#halo)"/>
+  <path d="M32 64V32H64M1136 328H1168V296" fill="none" stroke="#62e8ef" stroke-opacity=".65" stroke-width="2"/>
+  <g fill="none" stroke="#62e8ef">
+    <ellipse cx="969" cy="174" rx="170" ry="66" transform="rotate(-32 969 174)" stroke-opacity=".35"/>
+    <ellipse cx="969" cy="174" rx="170" ry="66" transform="rotate(32 969 174)" stroke-opacity=".2"/>
+    <circle cx="969" cy="174" r="111" stroke-opacity=".1" stroke-dasharray="3 9"/>
+  </g>
+  <g transform="translate(903 124)">
+    <path d="M66 0V-17" stroke="#afa0ff" stroke-width="3"/>
+    <circle cx="66" cy="-21" r="5" fill="#afa0ff"/>
+    <rect width="132" height="96" rx="27" fill="#112c40" stroke="#75e9ef" stroke-width="2"/>
+    <rect x="15" y="17" width="102" height="54" rx="16" fill="#071321"/>
+    <path d="M36 42V48M96 42V48" stroke="#75e9ef" stroke-width="9" stroke-linecap="round"/>
+    <path d="M54 58Q66 66 78 58" fill="none" stroke="#75e9ef" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-8 34V62M140 34V62" stroke="#afa0ff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M47 115H85" stroke="#62e8ef" stroke-opacity=".4" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="#c6fbff">
+    <path d="M790 61l2 7 7 2-7 2-2 7-2-7-7-2 7-2z"><animate attributeName="opacity" values=".3;1;.3" dur="4s" repeatCount="indefinite"/></path>
+    <path d="M1115 79l2 7 7 2-7 2-2 7-2-7-7-2 7-2z"><animate attributeName="opacity" values="1;.3;1" dur="5s" repeatCount="indefinite"/></path>
+    <path d="M1086 276l2 7 7 2-7 2-2 7-2-7-7-2 7-2z"><animate attributeName="opacity" values=".3;1;.3" dur="6s" repeatCount="indefinite"/></path>
+    <circle cx="839" cy="263" r="3"/><circle cx="1058" cy="42" r="2"/><circle cx="1144" cy="204" r="2"/>
+  </g>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="70" y="84" fill="#75e9ef" font-size="13" letter-spacing="4">STUDENT ROBOTICS / OPEN SOURCE</text>
+    <text x="66" y="164" fill="#f0f7ff" font-size="66" font-weight="750" letter-spacing="-2">PyLoT Robotics</text>
+    <text x="70" y="216" fill="url(#accent)" font-size="29" font-weight="600">Build robots. Share what works.</text>
+    <text x="70" y="257" fill="#acbdd3" font-size="17">Tools and ideas from hands-on robot development.</text>
+    <rect x="70" y="288" width="40" height="3" rx="1.5" fill="#75e9ef"/>
+    <text x="124" y="295" fill="#91a8c4" font-size="12" letter-spacing="3">ROS 2 · ROBOCUP@HOME · JAPAN</text>
+  </g>
+</svg>
