@@ -38,6 +38,18 @@ See each project's README for setup instructions, supported environments, and de
 | 🚶 **[follow-person](https://github.com/PyLoT-Robotics/follow-person)** | **Person following, packaged.** ROS 2 person following with RealSense and 2D LiDAR, without a Nav2 dependency. | Apache-2.0 |
 | 🖥️ **[PyLoT_Face](https://github.com/PyLoT-Robotics/PyLoT_Face)** | **Bring robot video to the browser.** A WebRTC video viewer and streaming node. | Apache-2.0 |
 | ↕️ **[lift_wrapper](https://github.com/PyLoT-Robotics/lift_wrapper)** | **Simple lift control.** Arduino Uno stepper-motor control with serial movement commands and homing. | MIT |
+| **[follow-person-cpp](https://github.com/PyLoT-Robotics/follow-person-cpp)** | C++17 LiDAR mapping for follow-person, with paired upstream benchmarks and English/Japanese documentation. | Apache-2.0 |
+| **[a-star-mpc-follower-cpp](https://github.com/PyLoT-Robotics/a-star-mpc-follower-cpp)** | C++17 A* and occupancy-grid kernels with upstream parity checks and measured performance tables. | MIT |
+| **[robot-audio-bench](https://github.com/PyLoT-Robotics/robot-audio-bench)** | Reproducible audio stimuli, SNR measurements, and speech-recognition evaluation reports. | Apache-2.0 |
+| **[robot-knowledge-graph](https://github.com/PyLoT-Robotics/robot-knowledge-graph)** | YAML knowledge graphs with CRUD, text/PDDL export, a CLI, and ROS 2 integration. | Apache-2.0 |
+| **[ros2-door-monitor](https://github.com/PyLoT-Robotics/ros2-door-monitor)** | LaserScan/TF door-state monitoring with debounce and a watchdog. | Apache-2.0 |
+| **[ros2-pointcloud-crop](https://github.com/PyLoT-Robotics/ros2-pointcloud-crop)** | TF-aware multi-box PointCloud2 cropping while preserving point fields. | Apache-2.0 |
+| **[ros2-named-locations](https://github.com/PyLoT-Robotics/ros2-named-locations)** | Record and store named poses, set an initial pose, and send Nav2 goals. | Apache-2.0 |
+| **[ros2-arm-tools](https://github.com/PyLoT-Robotics/ros2-arm-tools)** | Joint limits, named-pose teaching, and FollowJointTrajectory move/jog tools. | Apache-2.0 |
+| **[ros2-wave-detector](https://github.com/PyLoT-Robotics/ros2-wave-detector)** | Tracked waving-gesture detection with optional YOLO and aligned-depth integration. | Apache-2.0 |
+| **[rgbd-grasp-estimator](https://github.com/PyLoT-Robotics/rgbd-grasp-estimator)** | RGB-D point clustering, surface normals, and geometric grasp estimation. | Apache-2.0 |
+
+Robin, the C++ variants, and the standalone tools provide English READMEs with linked Japanese documentation. The C++ performance tables report measured kernel/callback workloads; see each README for conditions and scope.
 
 This list includes public projects with an identified code license. Model weights, datasets, and dependencies have their own terms.  
 Some models used by **pinto_model_zoo_ros2** have non-commercial or research-only terms. Check each repository's license and NOTICE files for details.
