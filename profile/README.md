@@ -48,6 +48,8 @@ See each project's README for setup instructions, supported environments, and de
 | **[ros2-arm-tools](https://github.com/PyLoT-Robotics/ros2-arm-tools)** | Joint limits, named-pose teaching, and FollowJointTrajectory move/jog tools. | Apache-2.0 |
 | **[ros2-wave-detector](https://github.com/PyLoT-Robotics/ros2-wave-detector)** | Tracked waving-gesture detection with optional YOLO and aligned-depth integration. | Apache-2.0 |
 | **[rgbd-grasp-estimator](https://github.com/PyLoT-Robotics/rgbd-grasp-estimator)** | RGB-D point clustering, surface normals, and geometric grasp estimation. | Apache-2.0 |
+| **[ros2-gamepad-teleop](https://github.com/PyLoT-Robotics/ros2-gamepad-teleop)** | Gamepad control for base, head, arm, gripper, and speech requests, with configurable joint profiles and an input watchdog. | Apache-2.0 |
+| **[step-response-tools](https://github.com/PyLoT-Robotics/step-response-tools)** | Offline CSV analysis of settling time, overshoot, and oscillation reversals in arbitrary physical units. | Apache-2.0 |
 
 Robin, the C++ variants, and the standalone tools provide English READMEs with linked Japanese documentation. The C++ performance tables report measured kernel/callback workloads; see each README for conditions and scope.
 
